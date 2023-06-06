@@ -1,0 +1,8 @@
+.active-bottom {
+    border-bottom: 3px solid var(--PrimaryColor);
+}
+
+.product-img-slider-show {
+    width: 450px;
+    height: 450px;
+}

@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200;
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: var(--LiteTextColor);
+    font-size: 1em;
+}
+
+/*start header and navbar*/
+
+.nav-menu-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.shadow-header {
+    box-shadow: 0px 0px 0px var(--BgColorExtra);
+}
+
+.input-serch input {
+    position: relative;
+    left: 0;
+    top: 0;
+    outline: none;
+    border: none;
+    background-color: var(--BgColorLite);
+    color: var(--LiteTextColor);
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 3em;
+    padding-left: 0.7em;
+    font-size: 1.2em;
+}
+
+.input-serch i {
+    position: absolute;
+    color: var(--LiteTextColor);
+    z-index: 10;
+    padding: 1.34em 0.7em;
+    border-left: 1px solid var(--BgColorExtra);
+}
+
+.btn-header-buy button {
+    padding: 1em 1.5em;
+    color: var(--WhiteTextColor);
+    background-color: var(--PrimaryColor);
+    border: none;
+}
+
+.btn-header-buy :hover button {
+    background-color: var(--PrimaryColorExtra);
+}
+
+/* .btn-header-buy button i {
+    margin-right: 1em;
+} */
+
+.btn-header-login button {
+    padding: 1em 1.5em;
+    color: var(--LiteTextColor);
+    background-color: var(--BgColorLite);
+    border: none;
+}
+
+/* .btn-header-login button i {
+    margin-right: 1em;
+} */
+
+.btn-header-basket button {
+    padding: 1em 1.5em;
+    outline: none;
+    border: none;
+    background-color: var(--BgColorLite);
+    color: var(--PrimaryColor);
+}
+
+.nav-menu-border-bottom {
+    border-top: 1px solid var(--BgColorExtra);
+}
+
+.nav-menu-hover {
+    transition: all 0.3s;
+}
+
+.nav-menu-hover:hover {
+    color: var(--PrimaryColor) !important;
+}
+
+.album-slide-show {
+    position: absolute;
+}
+
+.img-album-1 {
+    top: 40px;
+    left: 130px;
+    z-index: 7;
+    transition: all 0.3s;
+}
+
+.img-album-2 {
+    top: 140px;
+    left: 45px;
+    z-index: 8;
+    transition: all 0.3s;
+}
+
+.img-album-3 {
+    top: 260px;
+    left: 130px;
+    z-index: 9;
+    transition: all 0.3s;
+}
+
+.img-album-4 {
+    top: 360px;
+    left: 45px;
+    z-index: 8;
+    transition: all 0.3s;
+}
+
+.img-album-5 {
+    top: 480px;
+    left: 130px;
+    z-index: 7;
+    transition: all 0.3s;
+}
+
+.z-index-album:hover {
+    z-index: 20;
+}
+
+/*end header and navbar*/
+/*start services*/
+
+.box-size-services {
+    width: 420px;
+    height: 185px;
+}
+.box-size-services a{
+    height: 185px;
+}
+
+.btn-services-bottom-slaide-show button {
+    padding: 1em 0.7em;
+    color: var(--BgColorExtra);
+    background-color: var(--DisableButton);
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-services-bottom-slaide-show:hover button {
+    background-color: var(--PrimaryColor);
+    color: var(--WhiteTextColor);
+}
+
+.btn-services-bottom-slaide-show button i {
+    margin: auto 0;
+}
+
+.content-img-p-btn-services {
+    background-color: var(--BgColorLite);
+}
+
+.gradient-img-service {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(245, 248, 240, 1));
+}
+
+/*end services*/
+
+/*start popular*/
+.btn-more button {
+    padding: 1em 1.5em;
+    color: var(--LiteTextColor);
+    background-color: var(--BgColorLite);
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-more :hover {
+    color: var(--WhiteTextColor);
+    background-color: var(--PrimaryColor);
+}
+
+/*end popular*/
+
+/*start introduction app*/
+.btn-download-introduction button {
+    padding: 1em 1.5em;
+    color: var(--WhiteTextColor);
+    background-color: var(--PrimaryColor);
+    border: none;
+}
+
+/*end introduction app*/
+
+/*start whay*/
+
+.card-why {
+    width: 280px;
+    min-height: 460px;
+    background-color: var(--BgColorGray);
+}
+
+.card-why-icons {
+    width: 138px;
+    height: 138px;
+    background-color: var(--BgColorLite);
+    outline: 2px solid var(--BgColorExtra);
+}
+
+/*end whay*/
+
+/*starrt about*/
+.btn-about button {
+    padding: 1em 1.5em;
+    color: var(--LiteTextColor);
+    background-color: var(--BgColorLite);
+    border: none;
+}
+
+.btn-about:hover button {
+    background-color: var(--PrimaryColor);
+    color: var(--WhiteTextColor);
+}
+
+/*end about*/
+
+/*start footer*/
+.bacground-baner-oreng {
+    background-color: var(--SecondColor);
+}
+
+.line-height-100 {
+    width: 100%;
+    height: 10px;
+    background-color: var(--BgColorExtra);
+}
+
+.line-height-1px-100 {
+    width: 100%;
+    height: 1px;
+    background-color: var(--BgColorExtra);
+}
+
+.style-tag-a-footer a {
+    color: var(--BlackTextColor);
+}
+
+.style-tag-i-footer i {
+    color: var(--PrimaryColor) !important;
+}
+
+.bacground-baner-primary {
+    background-color: var(--PrimaryColor);
+}
+
+/*end footer*/
+

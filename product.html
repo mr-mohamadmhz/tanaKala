@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه مشخصات محصولات - تا</title>
+
+    <!--Library css bootstrap fonts-->
+
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style_product.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style_colors_fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+
+    <!--start header and navbar-->
+    <header class="shadow-header">
+        <div class="container p-0">
+            <div class="d-flex flex-column flex-md-row w-100 h-auto py-3 gap-2 justify-content-md-between align-items-md-start
+            justify-content-center align-items-center">
+                <div class="flex-column h-auto w-50  col-12 col-md-6 justify-content-between top-logo-header">
+                    <div class="flex-row d-flex justify-content-between align-items-center">
+                        <div class="d-flex flex-column col-xl-6 align-items-start">
+                            <div class="d-flex flex-row w-100 align-items-center">
+                                <div class="flex-column  col-xl-4" style="width: 66px; height: 65px;">
+                                    <img src="images/Group 5 logo.svg" alt="" width="66" height="65">
+                                </div>
+                                <div class="flex-column  col-xl-8 ms-1">
+                                    <h3>تاناکالا</h3>
+                                    <p>عکس ماندگار ، هدیه ارزش مند</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-column h-auto col-xl-6">
+                            <form action="">
+                                <div class="input-serch">
+                                    <i class="fa-solid fa-search"></i>
+                                    <input class="w-100" type="search" name="search-header"
+                                        placeholder="جستجو در فروشگاه تاناکالا">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex-column d-flex w-50 col-12 col-md-6 align-items-end justify-content-between top-btn-header">
+                    <div class="d-flex flex-row justify-content-md-end justify-content-between gap-2 w-md-100">
+                        <div style="max-height: 56px;"
+                            class="flex-column h-auto col-xl-5 d-flex justify-content-center align-items-md-end overflow-hidden">
+                            <a class="btn-header-buy" href="#">
+                                <button>
+                                    سفارش آنلاین لباس<i class="fa-solid fa-arrow-left ms-3"></i>
+                                </button>
+                            </a>
+                        </div>
+                        <div style="max-height: 56px;"
+                            class="flex-column h-auto col-xl-5 d-flex justify-content-md-center align-items-md-end overflow-hidden">
+                            <a class="btn-header-login" href="#">
+                                <button>ورود و ثبت نام<i class="fa-solid fa-user-circle ms-3"></i></button>
+                            </a>
+                        </div>
+                        <div class="flex-column h-auto col-xl-2 d-flex justify-content-md-center align-items-md-end">
+                            <a class="btn-header-basket" href="#">
+                                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="d-flex flex-row justify-content-between align-items-center nav-menu-border-bottom">
+                <div class="flex-column col-xl-10">
+                    <div class="py-3 pe-3" style="font-size: 20px!important;">
+                        <a style="color: var(--BlackTextColor);" status="0" class="btn-menu" href="#"><i
+                                class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <div class=" nav-menu-txt">
+                        <a style="color: var(--BlackTextColor); font-size: 1.2em;"
+                            class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <p class="p-0 m-0">
+                                <img class="mx-3 icon-next-to-text" src="images/Category 1236.svg" alt="">دسته بندی
+                                محصولات
+                            </p>
+                        </a>
+                        <a style="color: var(--BlackTextColor); font-size: 1.2em;"
+                            class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <p class="p-0 m-0">
+                                <img class="mx-3 icon-next-to-text" src="images/Gift 1236.svg" alt="">هدیه بدهید
+                            </p>
+                        </a>
+                        <a style="color: var(--BlackTextColor); font-size: 1.2em;"
+                            class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <p class="p-0 m-0">
+                                <img class="mx-3 icon-next-to-text" src="images/Tag 1236.png" alt="">پلن های پیشنهادی
+                            </p>
+                        </a>
+                        <a class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <span>شاسی ها</span>
+                        </a>
+                        <a class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <span>تابلوها</span>
+                        </a>
+                        <a class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <span>درباره ما</span>
+                        </a>
+                        <a class="flex-column py-3 nav-menu-hover mx-2" href="#">
+                            <span>تماس باما</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-none d-md-flex flex-column col-xl-2 justify-content-between align-items-end">
+                    <div class="d-flex flex-row gap-4 align-items-center">
+                        <div class="flex-column">
+                            <img src="images/Group 34697 telephon.svg" alt="">
+                        </div>
+                        <div class="flex-column">
+                            <span>شماره تماس</span>
+                            <h4 class="my-2">
+                                <a style="color: var(--BlackTextColor); font-size: 1em;font-size: 1.2em;
+                                font-weight: 900;" href="tel:+9802136160800" class="my-2">02136160800</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+    <!--end header and navbar-->
+
+
+    <!--start section product-->
+    <section class="p-0 container">
+        <!--start paging-->
+        <div class="d-flex flex-column flex-wrap my-5">
+            <ul class="p-0 m-0 d-flex flex-row list-unstyled">
+                <li class="me-2"><a href="#">صفحه اصلی</a><i class="mx-2 fa-solid fa-angle-left"></i></li>
+                <li class="me-2"><a href="#">محصولات</a><i class="mx-2 fa-solid fa-angle-left"></i></li>
+                <li class="me-2"><a href="#">شلوار</a></li>
+            </ul>
+        </div>
+        <!--end paging-->
+        <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between ">
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row justify-content-lg-between justify-content-center gap-3 flex-wrap">
+                    <div class="d-flex flex-column justify-content-center justify-content-lg-between gap-2 align-items-center"
+                        style="min-width: 30px; max-height: 550px;">
+                        <div class="product-img-slider-show">
+                            <img class="h-100 w-100" src="images/image124578-1364.png" alt="">
+                        </div>
+                        <div class="flex-row d-flex justify-content-around gap-2">
+                            <div style="width: 80px; height: 80px;">
+                                <img class="h-100 w-100" src="images/image124578-1369.png" alt="">
+                            </div>
+                            <div style="width: 80px; height: 80px;">
+                                <img class="h-100 w-100" src="images/image124578-1364.png" alt="">
+                            </div>
+                            <div style="width: 80px; height: 80px;">
+                                <img class="h-100 w-100" src="images/image124578-1366.png" alt="">
+                            </div>
+                            <div style="width: 80px; height: 80px;">
+                                <img class="h-100 w-100" src="images/image124578-1364.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between gap-2 ps-2">
+                        <div><span>شلوار</span></div>
+                        <div>
+                            <h3>شلوار مردانه سایز 42</h3>
+                        </div>
+                        <div>
+                            <ul class="list-unstyled">
+                                <li><i class="fa-solid fa-file-code me-2"></i><span>کد کالا : 1236498</span></li>
+                                <li><strong class="me-2">برند :</strong><a href="#">برند زارا</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>ویژگی ها :</h3>
+                            <ul class="list-unstyled">
+                                <li><strong class="me-2">رنگ :</strong><span>صورتی ، سبز ، زغال سنگی</span></li>
+                                <li><strong class="me-2">سایز :</strong><span>44 ، 43 ، 42</span></li>
+                                <li><strong class="me-2">جنس :</strong><span>نخی</span></li>
+                            </ul>
+                        </div>
+                        <div style="font-size: 0.75em;"
+                            class="flex-row d-flex justify-content-lg-between gap-2 align-items-center">
+                            <div style="width: 80px; height: 80px;" class="text-center">
+                                <img class="d-block" style="width: 52px;height: 52px;" src="images/Group-3.png" alt="">
+                                <span>پشتیباتی 24 ساعته</span>
+                            </div>
+                            <div style="width: 80px; height: 80px;" class="text-center">
+                                <img class="d-block" style="width: 52px;height: 52px;" src="images/Group-1.png" alt="">
+                                <span>قیمت مناسب</span>
+                            </div>
+                            <div style="width: 80px; height: 80px;" class="text-center">
+                                <img class="d-block" style="width: 52px;height: 52px;" src="images/Group-2.png" alt="">
+                                <span>ارسال به تمام کشور</span>
+                            </div>
+                            <div style="width: 80px; height: 80px;" class="text-center">
+                                <img class="d-block" style="width: 52px;height: 52px;" src="images/group-4.svg" alt="">
+                                <span>بازگشت وجه</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex flex-column justify-content-between p-2"
+                style="background-color: var(--BgColorGray);min-width: 30px; max-height: 450px;">
+                <div class="border-bottom border-1 border-dark ">
+                    <h4 class="my-2">انتخاب رنگ</h4>
+                    <ul class="list-unstyled d-flex gap-2 my-3">
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-danger me-2"></i>صورتی</li>
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-success me-2"></i>سبز</li>
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-dark me-2"></i>زغال سنگی</li>
+                    </ul>
+                </div>
+                <div class="border-bottom border-1 border-dark ">
+                    <h4 class="my-2">انتخاب سایز</h4>
+                    <ul class="list-unstyled d-flex gap-2 my-3">
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-danger me-2"></i>42</li>
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-success me-2"></i>43</li>
+                        <li style="cursor: pointer;" class="bg-white px-3 py-2"><i
+                                class="fa-solid fa-circle text-dark me-2"></i>44 </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-baseline">
+                    <h4 class="my-2">تعداد</h4>
+                    <ul class="list-unstyled d-flex gap-2 my-3">
+                        <li class="bg-white px-3 py-2">
+                            <i style="cursor: pointer;" class="btn fa-solid fa-plus-circle text-dark m-2"></i>
+                            <strong>3</strong>
+                            <i style="cursor: pointer;" class="btn fa-solid fa-minus-circle text-dark m-2"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" border-top border-1 border-dark">
+                    <div class="d-flex flex-row justify-content-between align-items-baseline">
+                        <h4 class="my-2">قیمت</h4>
+                        <ul class="list-unstyled d-flex gap-2 my-3">
+                            <li class="bg-success text-white px-3 py-2">
+                                <strong>420,000 هزار تومان</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-success text-center px-3 py-3">
+                        <strong>انتخاب شلوار و ثبت سفارش</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section product-->
+
+    <!--start about the product-->
+
+    <section class="container p-0">
+        <div class="d-flex flex-column align-items-start my-5">
+            <h1>درمورد محصول بیشتر بدانید</h1>
+        </div>
+
+        <div class="d-flex flex-column gap-2 border-1 border-bottom border-dark">
+            <div class="d-flex flex-row gap-3">
+                <div class="flex-column tabs">
+                    <h3><a style="color: var(--BlackTextColor);" deta-id="one" class="active-bottom" href="#">توضیحات
+                            محصول</a></h3>
+                </div>
+                <div class="flex-column tabs">
+                    <h3><a style="color: var(--BlackTextColor);" deta-id="two" href="#">مشخصات فیزیکی</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column my-5 px-3">
+            <div class="">
+                <P id="one" class="p-0 m-0 content" style="font-size: 1.5em; text-align: justify;">سطرآنچنان که لازم
+                    است، و برای شرایط فعلی تکنولوژی مورد
+                    نیاز، و کاربردهای
+                    متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت
+                    فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                    الخصوص
+                    طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                    موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                    اصلی، و
+                    جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</P>
+            </div>
+            <div class="">
+                <P id="two" class="p-0 m-0 content" style="display: none; font-size: 1.5em; text-align: justify;">لورم
+                    ایپسوم متن ساختگی با تولید
+                    سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی
+                    مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                    گذشته،
+                    حال
+                    و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                    ای
+                    علی
+                    الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
+                    دشواری
+                    موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی
+                    و
+                    جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</P>
+            </div>
+        </div>
+    </section>
+
+    <!--end about the product-->
+
+    <!--start feature product-->
+    <section class="container p-0">
+        <div class="d-felx flex-column align-items-start">
+            <div class="">
+                <h1>ویژگی های محصول</h1>
+            </div>
+            <div class="d-flex flex-row gap-3 border-1 border-bottom border-dark my-3">
+                <div class="">
+                    <ul>
+                        <li><span>رنگ</span></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li><strong>صورتی ، سبز ، زغال سنگی</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-row gap-3 border-1 border-bottom border-dark my-3">
+                <div class="">
+                    <ul>
+                        <li><span>سایز</span></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li><strong>42 ، 43 ، 44</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-row gap-3 border-1 border-bottom border-dark my-3">
+                <div class="">
+                    <ul>
+                        <li><span>جنس</span></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li><strong>نخی</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end feature product-->
+    <div style="background-color: var(--BgColorGray)!important;" class="line-height-100 my-5"></div>
+    <!--start popular-->
+    <div class="py-2">
+        <section class="container my-3 px-0 py-2">
+            <div class="d-flex flex-row justify-content-between align-items-baseline my-5">
+                <div class="flex-column">
+                    <h3>برترین فروشگاه ها</h3>
+                </div>
+                <div class="flex-column">
+                    <a class="btn-more" href="#">
+                        <button>مشاهده بیشتر<i class="fa-solid fa-arrow-left ms-3"></i></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container p-0">
+            <div
+                class="d-flex flex-lg-row flex-wrap gap-2 justify-content-xl-between justify-content-center align-items-center my-3">
+                <div class="flex-column" style="width: 315px;">
+                    <div>
+                        <img class="w-100" src="images/Rectangle fff8958.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="my-2">لباس مردانه</h5>
+                        <h4 class="my-2">پیراهن نخی مردانه</h4>
+                        <h4 style="color: var(--PrimaryColor);" class="my-2">
+                            24,000<span>تومان</span><span> /
+                            </span>68,000<span>تومان</span></h4>
+                    </div>
+                </div>
+                <div class="flex-column" style="width: 315px;">
+                    <div>
+                        <img class="w-100" src="images/Rectangle fff8958.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="my-2">لباس مردانه</h5>
+                        <h4 class="my-2">پیراهن نخی مردانه</h4>
+                        <h4 style="color: var(--PrimaryColor);" class="my-2">
+                            24,000<span>تومان</span><span> /
+                            </span>68,000<span>تومان</span></h4>
+                    </div>
+                </div>
+                <div class="flex-column" style="width: 315px;">
+                    <div>
+                        <img class="w-100" src="images/Rectangle fff8958.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="my-2">لباس مردانه</h5>
+                        <h4 class="my-2">پیراهن نخی مردانه</h4>
+                        <h4 style="color: var(--PrimaryColor);" class="my-2">
+                            24,000<span>تومان</span><span> /
+                            </span>68,000<span>تومان</span></h4>
+                    </div>
+                </div>
+                <div class="flex-column" style="width: 315px;">
+                    <div>
+                        <img class="w-100" src="images/Rectangle fff8958.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="my-2">لباس مردانه</h5>
+                        <h4 class="my-2">پیراهن نخی مردانه</h4>
+                        <h4 style="color: var(--PrimaryColor);" class="my-2">
+                            24,000<span>تومان</span><span> /
+                            </span>68,000<span>تومان</span></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--end popular-->
+    <!--------------start footer-->
+    <footer>
+
+        <section class="container p-0">
+            <div class="d-flex flex-sm-row flex-column justify-content-between bacground-baner-oreng py-4 px-3">
+                <div class="flex-column">
+                    <div class="flex-row d-flex align-items-center gap-3">
+                        <img src="images/Group-man1236.png" alt="" width="66" height="66">
+                        <a href="#" style="color: var(--WhiteTextColor);">
+                            <h3 class="m-0">خرید آنلاین و سریع لباس</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <a href="#"> <img src="images/arrow-left-1236.png" alt="" width="66" height="66"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-height-100"></div>
+        <section class="container p-0">
+            <div class="d-flex flex-row justify-content-between my-3 align-items-center">
+                <div class="flex-column col-xl-3 col-6">
+                    <div class="d-flex flex-row w-100">
+                        <div class="flex-column  col-xl-4" style="width: 66px; height: 65px;">
+                            <img src="images/Group 5 logo.svg" alt="" width="66" height="65">
+                        </div>
+                        <div class="flex-column  col-xl-8 ms-1">
+                            <h3>تاناکالا</h3>
+                            <p>عکس ماندگار ، هدیه ارزش مند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-column col-xl-8">
+                    <div class="line-height-1px-100"></div>
+                </div>
+                <div class="flex-column col-xl-1 col-6 d-flex align-items-end">
+                    <a href="#"> <img src="images/arrow-top.png" alt="" width="66" height="66"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container p-0">
+            <div
+                class="d-flex flex-lg-row flex-wrap justify-content-between align-items-start gap-2 my-3 style-tag-a-footer style-tag-i-footer">
+                <div class="d-flex flex-column justify-content-between gap-3 align-items-start col-xl-2">
+                    <h3>محصولات</h3>
+                    <a href="#">شلوار مردانه</a>
+                    <a href="#">پیراهن مردانه</a>
+                    <a href="#">تیشرت</a>
+                    <a href="#">مانتو</a>
+                    <a href="#">شال و روسری</a>
+                </div>
+                <div class="d-flex flex-column justify-content-between gap-3 align-items-start col-xl-2">
+                    <h3>خدمات مشتریان</h3>
+                    <a href="#">شرایط یازگشت وجه</a>
+                    <a href="#">حریم خصوصی</a>
+                    <a href="#">آموزش نگهداری</a>
+                    <a href="#">سوالات متداول</a>
+                </div>
+                <div class="d-flex flex-column justify-content-between gap-3 align-items-start col-xl-2">
+                    <h3>تاناکارا</h3>
+                    <a href="#">درباره ما</a>
+                    <a href="#">تماس با ما</a>
+                    <a href="#">همکاری در فروش</a>
+                    <a href="#">سوالات متداول</a>
+                </div>
+                <div class="d-flex flex-column justify-content-between gap-3 align-items-start col-xl-3">
+                    <h3>محصولات</h3>
+
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-location"></i> <strong class="mx-3">آدرس</strong>
+                        <a href="#">
+                            <p class="p-0">تهران - خیابان پاسداران - تاناکالا</p>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-phone"></i> <strong class="mx-3">شماره تماس</strong>
+                        <a href="#">
+                            <p class="p-0">02136160800</p>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-envelope"></i> <strong class="mx-3">ایمیل</strong>
+                        <a href="mailto:info@axkhoone.com">
+                            <p class="p-0">info@axkhoone.com</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center col-xl-2">
+                    <div class="w-100">
+                        <img class="w-100" src="images/enamad-1236.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container my-3 p-0">
+            <div class="d-flex flex-sm-row flex-column justify-content-between bacground-baner-primary py-4 px-3">
+                <div class="flex-column">
+                    <div class="flex-row d-flex align-items-center gap-3">
+                        <img src="images/bazar-phone-1236.png" alt="" width="66" height="66">
+                        <a href="#" style="color: var(--WhiteTextColor);">
+                            <h3 class="m-0">دانلود اپلیکیشن تاناکالا</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <a href="#"> <img src="images/bazar-1236.png" alt="" width="158" height="66"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container my-3 p-0">
+            <div
+                class="d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-baseline">
+                <div class="flex-column col-12 col-md-8">
+                    <p class="p-0 text-wrap"><i class="fa fa-copyright" aria-hidden="true"></i>
+                        تمامی حقوق مادی و معنوی این سایت نزد <strong>تاناکارا</strong> محفوظ است و هرگونه کپی برداری
+                        پیگرد قانونی دارد
+                    </p>
+                </div>
+                <div class="flex-column d-flex  style-tag-a-footer col-12 col-md-4">
+                    <div class="d-flex flex-row gap-4 justify-content-md-end justify-content-center">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex flex-column justify-content-center align-items-center py-3"
+            style="background-color: var(--BgColorGray);">
+            <p class="p-0">Dising and development of the site by <strong>Mohammad hosein mohammadzadeh</strong></p>
+        </div>
+
+    </footer>
+    <!--------------end footer-->
+</body>
+
+</html>
+
+
+<!--Library-javascript-jquery-bootstrap-->
+
+
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>

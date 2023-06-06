@@ -1,0 +1,98 @@
+:root {
+    --PrimaryColor: #00ADB5;
+    --PrimaryColorExtra: #033032;
+    --SecondColor: #FF9518;
+    --BgColorLite: #F5F8FC;
+    --BgColorExtra: #626E94;
+    --BgColorGray: #F5F8FC;
+    --WhiteTextColor: #fff;
+    --LiteTextColor: #626E94;
+    --BlackTextColor: #050F2C;
+    --BrandsTextColor: #1077FE;
+    --DisableButton: #DEE2EE;
+}
+
+h1 {
+    font-size: 2.7em;
+    /*2.7em*16px=43.2px*/
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 900;
+    font-family: PeydaWeb-ExtraBold;
+}
+
+h2 {
+    font-size: 2.3em;
+    /*2.3em*16px=36.8px*/
+    font-weight: 800;
+    font-family: PeydaWeb-Bold;
+}
+
+h3 {
+    font-size: 1.7em;
+    /*1.7em*16px=27.2px*/
+    font-weight: 700;
+    font-family: PeydaWeb-Bold;
+
+}
+
+h4 {
+    font-size: 1.3em;
+    /*1.3em*16px=20.8px*/
+    font-weight: 500;
+    font-family: PeydaWeb-Bold;
+
+}
+
+h5 {
+    font-size: 0.9em;
+    /*0.9em*16px=14.4px*/
+    font-weight: 400;
+    font-family: PeydaWeb-Light;
+}
+
+h6 {
+    font-size: 0.7em;
+    /*0.7em*16px=11.2px*/
+    font-weight: 300;
+    font-family: PeydaWeb-ExtraLight;
+}
+
+a {
+    font-family: PeydaWeb-Light;
+    text-decoration: none;
+}
+
+p {
+    font-family: PeydaWeb-Light;
+    padding: 0;
+    margin: 0;
+}
+
+strong {
+    font-family: PeydaWeb-ExtraLight;
+}
+
+span {
+    font-family: PeydaWeb-ExtraLight;
+    color: var(--LiteTextColor);
+}
+
+button {
+    font-size: 1em;
+}
+
+input {
+    font-size: 1em;
+    font-family: PeydaWeb-Light;
+}
+
+::placeholder {
+    font-size: 0.7em;
+}
+
+i {
+    font-size: 1em;
+}

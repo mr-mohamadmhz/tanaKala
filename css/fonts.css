@@ -1,0 +1,44 @@
+@font-face {
+    font-family: PeydaWeb-Black;
+    src: url(../fonts/woff/PeydaWeb-Black\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-ExtraBold;
+    src: url(../fonts/woff/PeydaWeb-ExtraBold\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-Bold;
+    src: url(../fonts/woff/PeydaWeb-Bold\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-Light;
+    src: url(../fonts/woff/PeydaWeb-Light\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-ExtraLight;
+    src: url(../fonts/woff/PeydaWeb-ExtraLight\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-Medium;
+    src: url(../fonts/woff/PeydaWeb-Medium\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-Regular;
+    src: url(../fonts/woff/PeydaWeb-Regular\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-SemiBold;
+    src: url(../fonts/woff/PeydaWeb-SemiBold\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: PeydaWeb-Thin;
+    src: url(../fonts/woff/PeydaWeb-Thin\(FaNum\).woff);
+}
