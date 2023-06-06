@@ -1,0 +1,30 @@
+PS D:\1 Metanext Test Page\Project tanakala> git init
+Initialized empty Git repository in D:/1 Metanext Test Page/Project tanakala/.git/
+PS D:\1 Metanext Test Page\Project tanakala> git add .
+
+PS D:\1 Metanext Test Page\Project tanakala> git commite -m "tet"
+git: 'commite' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+PS D:\1 Metanext Test Page\Project tanakala> git commit -m "tet" 
+
+PS D:\1 Metanext Test Page\Project tanakala> git remote add origin https://github.com/mr-mohamadmhz/tanaKala.git
+PS D:\1 Metanext Test Page\Project tanakala> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mr-mohamadmhz/tanaKala.git'
+PS D:\1 Metanext Test Page\Project tanakala> git push -u origin      
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS D:\1 Metanext Test Page\Project tanakala> git push -u origin master
+Enumerating objects: 122, done.
+Counting objects: 100% (122/122), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (121/121), done.
+Writing objects:  63% (77/122), 2.33 MiB | 32.00 KiB/s  
